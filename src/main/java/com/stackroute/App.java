@@ -27,6 +27,9 @@ public class App
 
 
         JdbcBatchProcessingDemo jdbcBatchProcessingDemo=new JdbcBatchProcessingDemo();
-        jdbcBatchProcessingDemo.displayJdbcBatchProcessing();
+        jdbcBatchProcessingDemo.batchProcessing();
+
+        JdbcTransactionDemo jdbcTransactionDemo=new JdbcTransactionDemo();
+        jdbcTransactionDemo.displayJdbcTransaction();
     }
 }
