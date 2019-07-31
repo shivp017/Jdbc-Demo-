@@ -10,5 +10,23 @@ public class App
     {
         JdbcBasicDemo jdbc=new JdbcBasicDemo();
         jdbc.displayUser();
+        jdbc.getUserByName("shiv");
+
+
+        DatabaseMetaDataDemo databaseMetaDataDemo = new DatabaseMetaDataDemo();
+        databaseMetaDataDemo.metaDataUser();
+
+
+        ResultSetMetaDataDemo resultSetMetaDataDemo=new ResultSetMetaDataDemo();
+        resultSetMetaDataDemo.displayResultSetMetaData();
+
+
+
+        RowSetDemo rowSetDemo=new RowSetDemo();
+        rowSetDemo.displayRowSet();
+
+
+        JdbcBatchProcessingDemo jdbcBatchProcessingDemo=new JdbcBatchProcessingDemo();
+        jdbcBatchProcessingDemo.displayJdbcBatchProcessing();
     }
 }
